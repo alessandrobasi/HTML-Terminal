@@ -1,0 +1,47 @@
+.terminal-img {
+width: 64px;
+}
+#terminal-dialog {
+width: fit-content;
+height: fit-content;
+}
+.termnal-statusbar {
+padding: unset;
+display: flex;
+background-color: aliceblue;
+}
+.terminal-right, .terminal-left {
+display: flex;
+}
+.terminal-left {
+padding-left: 3px;
+}
+.terminal-close {
+background: unset;
+width: 24px;
+}
+.terminal-minimize {
+width: 24px;
+}
+.minimized {
+width: 300px;
+position: fixed;
+bottom: 0;
+right: 0;
+}
+.terminal-maximize {
+width: 24px;
+}
+.shutdown {	
+background-color: #12163c;
+height: 100vh;	
+}
+.shutdown-effect {
+position: absolute;
+z-index: 1;
+background-color: #ffffff;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+}
